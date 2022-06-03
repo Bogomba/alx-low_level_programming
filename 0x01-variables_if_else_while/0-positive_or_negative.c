@@ -6,7 +6,7 @@
  * main - Entry point, prints postive, negative or zero
  *Return: Always 0 (Success)
  */
-int main (void)
+int main ()
 {
 	int n=rand ();
 
@@ -15,9 +15,11 @@ int main (void)
 
 	if (n>0)
 	printf("is positive\n");
-	if (n==0)
+	if (n==0) {
 	printf("is zero\n");
-	if (n<0)
+}
+	if (n<0 ) {
 	printf("is negative\n");
+}
 	return (0);
 }
