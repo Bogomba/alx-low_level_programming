@@ -4,15 +4,15 @@
  * Return: Always 0 (Success)
  */
 
-int main (void)
+int main(void)
 
 {
 	char lower;
-		char upper;
-	for (lower = 'a'; lower <='z'; lower++)
-		for (upper = 'A'; upper <='Z'; upper++)
+	for (lower = 'a'; lower <= 'z'; lower++)
 	putchar(lower);
+	char upper;
+	for (upper = 'A'; upper <= 'Z'; upper++)
 	putchar(upper);
 	putchar('\n');
-	return (0);                                
+	return (0);
 }
