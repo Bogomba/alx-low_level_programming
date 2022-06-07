@@ -1,11 +1,11 @@
 #include<unistd.h>
 #include"main.h"
 /**
- * print_alphabet - a function that returns void
+ * print_alphabet_x10 - a function that prints the alpabet 10times
  * main - check the code
  * Return: Always 0 (Success)
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	char lower;
 
