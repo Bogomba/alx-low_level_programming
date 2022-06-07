@@ -1,6 +1,7 @@
 #include<unistd.h>
 #include "main.h"
 /**
+ * print_alphabet - a function that returns void
  * main - check the code
  * Return: Always 0 (Success)
  */
@@ -13,5 +14,4 @@ void print_alphabet(void)
 	for (lower = 'a'; lower <= 'z'; lower++)
 	_putchar(lower);
 	_putchar('\n');
-	return (0);
 }
