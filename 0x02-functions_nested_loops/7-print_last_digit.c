@@ -5,7 +5,7 @@
  * @n: -character
  * Return: Always 0
  */
-int print_last_digit(int n)
+int print_last_digit(int n % 10)
 {
 	int n;
 
@@ -13,4 +13,5 @@ int print_last_digit(int n)
 	{
 	_putchar("n, n%10", n);
 	return (0);
+	}
 }
