@@ -9,11 +9,11 @@ int main(void)
 {
 	int i;
 
-	printf("Infinite loop incoming :(\n");
+	printf("Infinite loop incoming :(\n");/*causes an infinite loop*/
 
 	i = 0;
 
-	while (i < 10) /*causes output to go to an infinite loop*/
+	while (i < 10)
 	{
 		putchar(i);
 	}
