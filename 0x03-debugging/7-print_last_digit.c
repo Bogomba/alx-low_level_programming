@@ -6,8 +6,6 @@ include"main.h"
  */
 int print_last_digit(int x)
 {
-	int x;
-
 	if (x < 0)
 	{
 	x = -(x % 10);
