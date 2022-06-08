@@ -4,7 +4,7 @@ include"main.h"
  * @x: - character
  * Return: Values of last digit
  */
-int print_last_digit(int x)
+int print_last_digit(int, x)
 {
 	if (x < 0)
 	{
