@@ -1,4 +1,4 @@
-#ifndef MAIN_H                                                                                                                                                                                  
+#ifndef MAIN_H                                                                                                                                                               
 
                                                                                                                                                                                                 
 
@@ -15,7 +15,6 @@
 int convert_day(int month, int dayi);                                                                                                                                                           
 
 int _isupper(int c);                                                                                                                                                                            
-
 int _isdigit(int c);                                                                                                                                                                            
 
 int mul(int a, int b);                                                                                                                                                                          

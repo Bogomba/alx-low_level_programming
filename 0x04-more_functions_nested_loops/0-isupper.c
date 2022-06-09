@@ -10,8 +10,14 @@ int _isupper(int c)
 {
 	char = c;
 	c = 'A';
-	_putchar("%c: %d\n", c, _isupper(c));
 	c = 'a';
-	_putchar("%c: %d\n", c, _isupper(c));
+	if ('c')
+	{
+	_putchar('1');
+	}
+	else
+	{
+	_putchar('0');
+	}
 	return (0);
 }
