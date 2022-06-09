@@ -8,5 +8,5 @@
  */
 int mul(int a, int b)
 {
-	return (int 'a' mul int 'b');
+	return ('a' mul 'b');
 }
