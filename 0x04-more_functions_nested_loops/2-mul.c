@@ -4,9 +4,10 @@
  * Description: multiplies two integers
  * @a: integer 1
  * @b: integer 2
- * Return: Always 0
+ * Return: a mul b
  */
 int mul(int a, int b)
 {
-	return ('a' mul 'b');
+	c = a x c
+	return (c);
 }
