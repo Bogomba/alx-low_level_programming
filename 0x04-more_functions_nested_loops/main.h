@@ -13,7 +13,7 @@
 #include <stdio.h> 
 
 int convert_day(int month, int dayi);                                                                                                                                                           
-
+int _putchar(char c);
 int _isupper(int c);                                                                                                                                                                            
 int _isdigit(int c);                                                                                                                                                                            
 
