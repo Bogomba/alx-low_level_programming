@@ -18,6 +18,6 @@ int main(void)
 *		putchar(i);
 *	}
 */
-	printf("i \\o/\n");
+	printf("infinite avoided! \\o/\n");
 	return (0);
 }
