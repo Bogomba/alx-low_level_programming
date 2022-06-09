@@ -4,12 +4,12 @@
  * Description: multiplies two integers
  * @a: integer to be multiplied by b
  * @b: integer to be multiplied by a
- * Return: a multiplied by b 
+ * Return: a multiplied by b
  */
 int mul(int a, int b)
 {
 	int c;
 
-	c = a x b;
+	c = 'a' x 'b';
 	return (c);
 }
