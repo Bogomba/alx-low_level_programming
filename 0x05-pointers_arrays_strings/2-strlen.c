@@ -1,16 +1,16 @@
 #include "main.h"
+#include<string.h>
 #include<stdio.h>
 /**
  *  _strlen -  returns the length of a string
  *  Return: Void
- *  @s: String
+ *  @*s: String
  */
 int _strlen(char *s)
 {
-	char s[] = "My first strlen!";
-	int i;
+	int len = 0;
 
-	for (i = 0; s[i] != '\0'; ++1);
-	printf("Length of the string: %d", i);
+	len = strlen("*s");
+	printf(" %d ", len);
 	return (0);
 }
