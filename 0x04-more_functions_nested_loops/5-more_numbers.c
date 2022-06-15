@@ -6,10 +6,16 @@
  */
 void more_numbers(void)
 {
+	int i;
 	int n;
 
-	for (n = 0; n <= 14; n++)
-	_putchar(n);
-	_putchar('\n');
-	_putchar(**10);
+	
+	for (i = 0; i < 10; i++)
+	{
+		for (n = 0; n <= 14; n++)
+		{
+		printf("%d", n);
+		}
+	printf("\n");
+	}
 }
