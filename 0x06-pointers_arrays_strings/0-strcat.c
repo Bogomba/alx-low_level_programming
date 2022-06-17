@@ -17,7 +17,7 @@ char *_strcat(char *dest, char *src)
 	int j = strlen(src);
 
 	for (j = 0; src[j]; i++, j++)
-	dest[i + 1] = src[j];
+	dest[i + 1] = src[j + 2];
 	printf("%s%s", dest, src);
 	printf("%s", src);
 	return (0);
