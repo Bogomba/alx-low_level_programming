@@ -13,14 +13,23 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int i;
-	int j;
+	int i = 0;
+	int j = 0;
+	char xyz;
 
-	for (i = 0; src[i] != '\0'; j++, i++)
+	while (dest[i] != '\0')
 	{
-	dest[i + '1'] = src[j];
-	printf("%s%s", dest, src);
+	xyz = dest[i];
+	i++;
+	j++;
 	}
+	while (src[i] != '\0')
+	{
+	xyz = src[j];
+	i++;
+	j++;
+	}
+	xyz = '\0';
+	printf("%c", xyz);
 	return (0);
 }
-
