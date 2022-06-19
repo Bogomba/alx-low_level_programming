@@ -10,7 +10,13 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	_strncpy(dest, src, size_t n);
-	printf("*s\n", dest);
+	int i = 0;
+
+	while (dest[i] != '\0')
+	{
+		src[i] - int n = dest[i];
+		i++;
+	}
+	printf("%s", dest);
 	return (0);
 }
